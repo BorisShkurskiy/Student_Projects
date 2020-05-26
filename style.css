@@ -1,0 +1,71 @@
+*{padding: 0; margin: 0;}
+Body {background-image: url("img_1039.jpg");
+      background-attachment: scroll;
+	  background-position: 0px 0px; font-size: 100%;}
+header {background: linear-gradient(90deg, rgba(120,50,255,0.5),rgba(255,120,15,0.5));
+ margin: 10px; height:400px;
+/*opacity:0.5;background-size: 50px 50px*/}
+nav  {text-align: right;}
+h1 {text-align: center; font-family: "Times New Roman", serif; font-style: italic;
+   font-size:2em;text-decoration: overline;}
+.left{float:left; width:500px;}
+.right{float:right;}
+h2 {font-style: oblique; font-variant: small-caps; font-size: 200%;color: red;}
+	p {font-weight: bold;text-indent: 30px;text-align:justify; /*text-decoration: line-through*/
+	direction:rtl;}
+	blockquote:after, blockquote:before {color: red;font-size:200%}
+	blockquote:after {content:'»'}
+	blockquote:before{content:'«'}
+main {background: transparent;Height:350px}
+div {margin: 10px;}
+.contact {float: left;width: 250px;}
+.sitemap {float: right;width: 250px;}
+footer {/*background: #FBB;*/  border: 5px solid maroon;clear: both;min-height:150px;
+background-image: /*linear-gradient(transparent 50%, #a3e5a3 50%)}*/
+/*radial-gradient(ellipse circle closest-side at 200px 30px, rgba(255,120,0,1), #09f)*/
+/*linear-gradient(to top left,transparent,rgba(10,255,0,0.2)40% )*/ 
+      /*radial-gradient(circle at 50% 0, rgba(255,0,0,.5), rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%, rgba(0,0,255,.5))}*/
+/* conic-gradient(from 45deg at 50px 30px, white 50%, orange 50%, yellow, green, blue, purple);}*/
+repeating-conic-gradient(from -5deg, gold 0 10deg, red 0 35deg);}
+
+a { text-decoration: none; color: #900;}
+ /* Цвет фона */
+ 
+a:vizited {color: #090; text-decoration: none;}
+a:hover{color:#00F; text-decoration:underline;}
+div.Black {display: inline-block;background-color: black;width:20px;height:20px;}
+div.Blue {display: inline-block;background-color: blue; width:20px;height:20px;}
+div.Black:hover {background: orange;}
+div.Blue:hover {background: orange;} 
+a.button {text-decoration:none; color: black;width:200px;padding:10px;background-color: white;
+margin: 10px;display: inline-block;border-style:solid; border-color:black; border-width:1px;}
+a.button:hover{color: maroon;background-color:rgba(255,255,255,1); background-image: 
+linear-gradient(to top left,transparent,rgba(10,255,0,0.2)40% ); /*Кнопка Hover*/
+/*rgba(0,200,120,0.8) rgba(0,150,255,0)*/
+text-decoration:none;padding:10px; margin: 10px;
+display: inline-block;border-style:solid;border-color:black; border-width:1px;
+box-shadow: inset 5px -5px 10px 0px rgba(20,10,10,0.5)}/*rgba(255,10,10,1)*/
+                                          
+										  /*Tables */
+
+Table.t2 {margin: auto; border-color: black; width: 200px; border-collapse: collapse;}
+.t2 td {text-align: center; background-color: white;  /*display: block;*/ 
+vertical-align: central/*!important*/;border: 2px solid black;margin: 0px;}
+.t2 td:first-child {background-color: transparent;border-style: none;} 
+/*.t2 {text-align: center; display: block ;vertical-align: middle!important; border-color:black; border-style:solid; border-width:2px;}*/
+Table.t1 {width: 100px; margin: 10px;}
+th.Black {width: 25px; height: 25px; background-color: black; border-color: yellow; border-width:2px,}
+th.Blue {width: 25px; height: 25px; background-color: blue; border-color: yellow; border-style: solid;}
+th.t1 { margin:10px;padding: 10px}
+th.t1 {border-color: white; border-style: solid;border-width:1px;}
+th.t1 {text-align:center;}
+th.t1:hover {background-color:orange;}
+tr.t1:hover {background-color:orange;}
+
+p.Bordered {Border-style: solid; border-color: black;Border-width:1px;}
+span.BB {color: white; background: black;}
+
+Form {margin:20px;}
+
+.white {background-color: white; border-style: solid; border-color: black;}
