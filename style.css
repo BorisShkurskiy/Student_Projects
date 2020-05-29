@@ -13,9 +13,11 @@ h1 {text-align: center; font-family: "Times New Roman", serif; font-style: itali
 h2 {font-style: oblique; font-variant: small-caps; font-size: 200%;color: red;}
 	p {font-weight: bold;text-indent: 30px;text-align:justify; /*text-decoration: line-through*/
 	/*direction:rtl;*/}
-	blockquote:after, blockquote:before {color: red;font-size:200%}
-	blockquote:after {content:'»';float:right}
-	blockquote:before{content:'«';float:left}
+	div.quotes {width:200px}
+	div.quotes:after, div.quotes:before {color: red;font-size:200%}
+	div.quotes:after {content:'»';float:right}
+	div.quotes:before{content:'«';float:left}
+	div.quotes > p {margin: 10px;}
 main {background: transparent;Height:350px}
 div {margin: 10px;}
 .contact {float: left;width: 250px;}
